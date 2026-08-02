@@ -1,14 +1,9 @@
 CodeAlpha Cloud Computing Internship Tasks
 
 Name: SANI IBRAHIM MAIJIKKAH
-
 Student ID: CA/DF1/231635
-
 Domain: Cloud Computing
-
 Internship Period: 1st August 2026 – 31st August 2026
-
----
 
 Completed Tasks
 
@@ -18,13 +13,11 @@ A cloud-based system that validates incoming records, removes duplicate entries,
 
 Task 2 – Detecting Data Leaks Using SQL Injection
 
-A secure prototype demonstrating protection against SQL injection attacks using parameterized queries and encrypted password handling.
+A secure user authentication prototype demonstrating protection against SQL injection attacks using parameterized queries and encrypted password handling.
 
-Task 4 – Making a Chatbot
+Task 3 – Cloud-Based Bus Pass System
 
-A simple AI-powered chatbot that responds instantly to predefined user queries and can be integrated into a website.
-
----
+A scalable cloud-ready bus ticket booking prototype with user registration, ticket generation, and booking management features.
 
 Technologies Used
 
@@ -34,18 +27,13 @@ Technologies Used
 - AWS Cloud Concepts
 - Git & GitHub
 
----
-
 Repository Structure
 
 - "task1-data-redundancy-removal-system/"
 - "task2-detecting-data-leaks-using-sql-injection/"
-- "task4-making-a-chatbot/"
-
----
+- "task3-cloud-based-bus-pass-system/"
 
 Author
 
 SANI IBRAHIM MAIJIKKAH
-
 Cloud Computing Intern – CodeAlpha
