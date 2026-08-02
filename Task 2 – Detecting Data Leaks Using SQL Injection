@@ -1,0 +1,38 @@
+Task 2 – Detecting Data Leaks Using SQL Injection
+
+Objective
+
+Secure user credentials and prevent SQL injection attacks in a cloud environment.
+
+Security Features
+
+- Parameterized SQL queries
+- Password hashing
+- Input validation
+- Access control protection
+
+Sample Secure Query
+
+import sqlite3
+
+conn = sqlite3.connect("users.db")
+cursor = conn.cursor()
+
+username = "admin"
+password = "secure123"
+
+cursor.execute(
+    "SELECT * FROM users WHERE username=? AND password=?",
+    (username, password)
+)
+
+Cloud Security Benefits
+
+- Prevents unauthorized database access
+- Reduces risk of data leakage
+- Supports secure web deployment
+- Compatible with AWS RDS and Azure SQL
+
+Result
+
+The system demonstrates a secure approach for handling sensitive user information in cloud-hosted applications.
