@@ -1,8 +1,11 @@
 CodeAlpha Cloud Computing Internship Tasks
 
 Name: SANI IBRAHIM MAIJIKKAH
+
 Student ID: CA/DF1/231635
+
 Domain: Cloud Computing
+
 Internship Period: 1st August 2026 – 31st August 2026
 
 Completed Tasks
