@@ -13,3 +13,51 @@ Features
 - Simple testing and optimization support
 
 Sample Python Chatbot
+
+responses = {
+    "hello": "Hello! Welcome to our website.",
+    "price": "Please contact support for pricing information.",
+    "help": "I am here to assist you with your questions.",
+    "bye": "Thank you for visiting. Goodbye!"
+}
+
+while True:
+    user = input("You: ").lower()
+
+    if user in responses:
+        print("Bot:", responses[user])
+    else:
+        print("Bot: Sorry, I do not understand your request.")
+
+    if user == "bye":
+        break
+
+Website Integration Idea
+
+The chatbot can be connected to:
+
+- HTML/CSS/JavaScript frontend
+- Flask web application
+- AWS EC2 hosted website
+- Cloud-based customer support portal
+
+Commercial Use Cases
+
+- Customer support
+- Product inquiries
+- Booking assistance
+- FAQ automation
+- Business website engagement
+
+Testing
+
+The chatbot was tested with common predefined inputs such as:
+
+- hello
+- help
+- price
+- bye
+
+Result
+
+A lightweight retrieval-based chatbot prototype was successfully designed for website integration and user engagement optimization.
