@@ -11,6 +11,27 @@ Features
 - Unique record storage
 - Database accuracy improvement
 
+Sample Python Logic
+
+records = []
+
+def add_record(name, email):
+    for r in records:
+        if r["email"] == email:
+            return "Duplicate record detected"
+
+    records.append({"name": name, "email": email})
+    return "Record added successfully"
+
+Cloud Concept
+
+This system can be deployed on:
+
+- AWS EC2
+- AWS RDS
+- AWS Lambda
+- Azure SQL Database
+
 Result
 
 Only verified and unique records are stored, improving efficiency and reducing redundancy.
