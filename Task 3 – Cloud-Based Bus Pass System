@@ -1,0 +1,37 @@
+Task 3 – Cloud-Based Bus Pass System
+
+Objective
+
+Develop a cloud-ready online bus ticket booking and pass management system.
+
+Features
+
+- Passenger registration
+- Ticket booking
+- Seat allocation
+- Booking confirmation
+- Cloud scalability support
+
+Example Ticket Structure
+
+ticket = {
+    "passenger": "Sani Ibrahim Maijikkah",
+    "route": "Gusau - Kaura Namoda",
+    "seat": 12,
+    "status": "Confirmed"
+}
+
+print(ticket)
+
+Cloud Deployment Idea
+
+This system can be hosted using:
+
+- AWS EC2
+- AWS S3
+- AWS RDS
+- AWS Elastic Beanstalk
+
+Result
+
+The project provides a simple prototype of a scalable cloud-based transportation booking system.
